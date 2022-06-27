@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "ESPHome",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "D:\\source\\opensource\\esphome\\",
+        "D:\\source\\opensource\\OneWireNg\\src\\"
+      ],
+      "defines": ["ARDUINO_ARCH_ESP32"],
+      "cStandard": "c11",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}
