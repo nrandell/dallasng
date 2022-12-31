@@ -98,7 +98,6 @@ namespace esphome
       }
 
       {
-        InterruptLock lock;
         one_wire_->addressAll();
         one_wire_->writeByte(DSTherm::CMD_CONVERT_T);
       }
