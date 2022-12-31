@@ -97,10 +97,8 @@ namespace esphome
         return;
       }
 
-      {
-        one_wire_->addressAll();
-        one_wire_->writeByte(DSTherm::CMD_CONVERT_T);
-      }
+      one_wire_->addressAll();
+      one_wire_->writeByte(DSTherm::CMD_CONVERT_T);
 
       for (auto *sensor : sensors_)
       {
